@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Data-Management-System/static/css/main.09d1d8a5.css",
+    "main.js": "/Data-Management-System/static/js/main.f8863436.js",
+    "index.html": "/Data-Management-System/index.html",
+    "main.09d1d8a5.css.map": "/Data-Management-System/static/css/main.09d1d8a5.css.map",
+    "main.f8863436.js.map": "/Data-Management-System/static/js/main.f8863436.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.09d1d8a5.css",
+    "static/js/main.f8863436.js"
+  ]
+}
