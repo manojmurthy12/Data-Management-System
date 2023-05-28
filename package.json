@@ -1,7 +1,7 @@
 {
     "name": "cloud_service",
     "version": "0.1.0",
-    "homepage": "https://manojmurthy12.github.io/Data-Management-System",
+    
     "private": true,
     "dependencies": {
         "@ant-design/icons": "^4.7.0",

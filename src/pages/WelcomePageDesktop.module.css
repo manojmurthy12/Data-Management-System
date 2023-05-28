@@ -156,19 +156,17 @@
   top: 117px;
   left: 29px;
   width: 250px;
-  height: 250px;
+  height: 117px;
 }
 .image1Icon {
   top: 19px;
   left: 11px;
-  width: 60px;
-  height: 60px;
-  size: 10%;
+  width: 100px;
+  height: 32.32px;
   object-fit: cover;
 }
 .cloudServicesManagement {
-  margin: 2;
-  size: 10%;
+  margin: 0;
 }
 .cloudService {
   position: absolute;
@@ -178,11 +176,10 @@
 }
 .image1Parent {
   position: absolute;
-  
   top: -3px;
   left: 18px;
   width: 275px;
-  height: 275px;
+  height: 109px;
   overflow: hidden;
   font-size: var(--font-size-lg);
   color: var(--grey-light-grey-1);

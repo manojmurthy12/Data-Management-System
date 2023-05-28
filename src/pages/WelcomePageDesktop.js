@@ -195,24 +195,15 @@ const WelcomePageDesktop = () => {
   </div>
   
       {/* Cloud Services Management */}
-      <div type='row'></div>
-      <div 
-      type='row'
-      className={styles.image1Parent}
-      
-      >
+      <div className={styles.image1Parent}>
         <img
           className={styles.image1Icon}
           alt=""
           src="/image-1@2x.png"
         />
-        
-        <p className={styles.cloudServicesManagement}>
-            Cloud Services
-          </p>
-        <b>
-        <p className={styles.cloudServicesManagement}>
-            Management
+        <b className={styles.cloudService}>
+          <p className={styles.cloudServicesManagement}>
+            Cloud Services Management
           </p>
         </b>
       </div>
