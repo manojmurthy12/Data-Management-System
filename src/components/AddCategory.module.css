@@ -1,0 +1,151 @@
+.charField,
+.div {
+  position: relative;
+}
+.charField {
+  letter-spacing: -0.02em;
+  line-height: 100%;
+}
+.div {
+  letter-spacing: 0.02em;
+  color: var(--color-chocolate);
+}
+.charFieldParent {
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-11xs);
+}
+.div1 {
+  position: relative;
+  line-height: 100%;
+  color: var(--color-dimgray-100);
+  display: none;
+}
+.frameGroup {
+  width: 509px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.frameChild {
+  border: 0;
+  background-color: transparent;
+}
+.frameParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.enterFieldDescription {
+  position: relative;
+  line-height: 100%;
+  color: var(--grey-600);
+  display: none;
+}
+.component4,
+.component4Wrapper {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.component4 {
+  margin: 0 !important;
+  top: 0;
+  left: 0;
+  gap: var(--gap-base);
+  z-index: 0;
+}
+.component4Wrapper {
+  top: calc(50% - 134.5px);
+  left: calc(50% - 253.5px);
+  width: 509px;
+  height: 93px;
+}
+.buttoncontainedTextAndIco,
+.buttonoutlinedTextAndIcon {
+  position: absolute;
+  top: 262px;
+  left: 50px;
+  cursor: pointer;
+}
+.buttonoutlinedTextAndIcon {
+  left: 134px;
+}
+.charField1 {
+  letter-spacing: -0.02em;
+  line-height: 100%;
+  color: var(--grey-800);
+}
+.charField1,
+.div2,
+.div3 {
+  position: relative;
+  font-size: var(--body-2-body-2-regular-size);
+  font-family: var(--font-voltaire);
+  text-align: left;
+}
+.div2 {
+  letter-spacing: 0.02em;
+  color: var(--color-chocolate);
+}
+.div3 {
+  line-height: 100%;
+  color: var(--color-dimgray-100);
+  display: none;
+}
+.frameDiv {
+  width: 509px;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.enterFieldDescription1 {
+  position: relative;
+  font-size: var(--body-2-body-2-regular-size);
+  line-height: 100%;
+  font-family: var(--font-voltaire);
+  color: var(--grey-600);
+  text-align: left;
+  display: none;
+}
+.component4Container {
+  position: absolute;
+  top: calc(50% - 30.5px);
+  left: calc(50% - 253.5px);
+  width: 509px;
+  height: 93px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.categoryForm {
+  position: absolute;
+  top: 124px;
+  left: 76px;
+  width: 613px;
+  height: 317px;
+  overflow: hidden;
+}
+.addcategory {
+  position: relative;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-whitesmoke);
+  width: 767px;
+  height: 568px;
+  overflow: hidden;
+  max-width: 100%;
+  max-height: 100%;
+  text-align: left;
+  font-size: var(--body-2-body-2-regular-size);
+  color: var(--grey-800);
+  font-family: var(--font-voltaire);
+}

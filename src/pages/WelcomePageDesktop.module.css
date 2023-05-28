@@ -1,0 +1,235 @@
+.home {
+  position: relative;
+  line-height: 21px;
+}
+.div,
+.installationAndSetup {
+  position: relative;
+  line-height: 25px;
+}
+.installationAndSetup {
+  display: none;
+}
+.breadcrumb,
+.search {
+  position: absolute;
+  left: 434px;
+}
+.breadcrumb {
+  top: 146px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.search {
+  border: 0;
+  background-color: transparent;
+  top: 28px;
+}
+.div2 {
+  top: 0;
+  left: 0;
+  background-color: #b3e0ff;
+  filter: blur(100px);
+  width: 914px;
+  height: 690px;
+}
+.div2,
+.home1,
+.icon {
+  position: absolute;
+}
+.icon {
+  top: 43px;
+  left: 57px;
+  width: 800px;
+  height: 603.94px;
+  object-fit: cover;
+}
+.home1 {
+  top: 254px;
+  left: 415px;
+  width: 914px;
+  height: 690px;
+}
+.tableOfContentsChild,
+.welcomePageDesktopChild {
+  position: absolute;
+  top: 148px;
+  left: 1140px;
+  cursor: pointer;
+}
+.tableOfContentsChild {
+  top: 0;
+  left: 0;
+}
+.searchChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-9xs);
+  background-color: var(--grey-light-white);
+  border: 1px solid var(--grey-light-grey-3);
+  box-sizing: border-box;
+  width: 250px;
+  height: 46px;
+}
+.search2 {
+  position: absolute;
+  top: 11px;
+  left: 38px;
+  line-height: 25px;
+}
+.frameIcon {
+  position: absolute;
+  top: 13px;
+  left: 10px;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+}
+.search1 {
+  position: absolute;
+  top: -88px;
+  left: 0;
+  width: 250px;
+  height: 46px;
+  display: none;
+}
+.computeServices {
+  position: relative;
+  font-weight: 600;
+}
+.frameIcon1 {
+  position: relative;
+  width: 12px;
+  height: 12px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.computeServicesParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-42xl);
+}
+.introduction {
+  cursor: pointer;
+  text-decoration: none;
+  line-height: 21px;
+  color: inherit;
+  margin-bottom: 8px; /* Add margin between each service */
+}
+.introductionWrapper {
+  display: flex;
+  flex-direction: column;
+  margin-left: 24px; /* Add margin to indent the services */
+}
+
+
+.t01,
+.tableOfContents1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.t01 {
+  overflow: hidden;
+  justify-content: center;
+  gap: var(--gap-xs);
+}
+.tableOfContents1 {
+  position: absolute;
+  top: 67px;
+  right: 0;
+  width: 250px;
+  justify-content: flex-start;
+  font-size: var(--body-2-body-2-regular-size);
+  color: var(--grey-light-grey-1);
+}
+.image1Icon,
+.tableOfContents {
+  position: absolute;
+  top: 117px;
+  left: 29px;
+  width: 250px;
+  height: 250px;
+}
+.image1Icon {
+  top: 19px;
+  left: 11px;
+  width: 60px;
+  height: 60px;
+  size: 10%;
+  object-fit: cover;
+}
+.cloudServicesManagement {
+  margin: 2;
+  size: 10%;
+}
+.cloudService {
+  position: absolute;
+  top: 80px;
+  left: 11px;
+  line-height: 25px;
+}
+.image1Parent {
+  position: absolute;
+  
+  top: -3px;
+  left: 18px;
+  width: 275px;
+  height: 275px;
+  overflow: hidden;
+  font-size: var(--font-size-lg);
+  color: var(--grey-light-grey-1);
+}
+.tableOfContentsParent {
+  position: absolute;
+  top: 31px;
+  left: 20px;
+  width: 283px;
+  height: 1638px;
+  overflow: hidden;
+  font-size: var(--body-3-body-3-regular-size);
+}
+.groupIcon,
+.profileChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 54px;
+  height: 54px;
+}
+.groupIcon {
+  height: 62.5%;
+  width: 48.61%;
+  top: 18.52%;
+  right: 23.61%;
+  bottom: 18.98%;
+  left: 27.78%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.profile {
+  position: absolute;
+  top: 20px;
+  left: 1348px;
+  width: 54px;
+  height: 54px;
+}
+.welcomePageDesktop {
+  position: relative;
+  background-color: var(--grey-light-white);
+  width: 100%;
+  height: 1802px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--body-2-body-2-regular-size);
+  color: var(--grey-light-grey-2);
+  font-family: var(--body-2-body-2-regular);
+}

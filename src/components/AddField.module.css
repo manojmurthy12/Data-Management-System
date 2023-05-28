@@ -1,0 +1,107 @@
+.div,
+.fieldType {
+  position: relative;
+}
+.fieldType {
+  letter-spacing: -0.02em;
+  line-height: 100%;
+}
+.div {
+  letter-spacing: 0.02em;
+  color: var(--color-chocolate);
+}
+.fieldTypeParent {
+  width: 509px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-11xs);
+}
+.div1 {
+  position: relative;
+  line-height: 100%;
+  color: var(--color-dimgray-100);
+  display: none;
+}
+.frameGroup {
+  width: 509px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 0;
+}
+.dropdownbutton {
+  margin: 0 !important;
+  position: absolute;
+  top: 30px;
+  left: 0;
+  z-index: 1;
+}
+.frameParent {
+  position: absolute;
+  top: calc(50% - 15px);
+  left: calc(50% - 271.5px);
+  width: 509px;
+  height: 93px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.buttoncontainedTextAndIco,
+.buttonoutlinedTextAndIcon {
+  position: absolute;
+  top: 460px;
+  left: 55px;
+  cursor: pointer;
+}
+.buttonoutlinedTextAndIcon {
+  left: 160px;
+}
+.addserviceFormChild,
+.addserviceFormInner,
+.addserviceFormItem,
+.frameTextfield {
+  border: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 86px;
+  left: 54px;
+}
+.addserviceFormInner,
+.addserviceFormItem,
+.frameTextfield {
+  top: 340px;
+}
+.addserviceFormInner,
+.frameTextfield {
+  top: 13px;
+}
+.frameTextfield {
+  top: 161px;
+}
+.addserviceForm {
+  position: absolute;
+  top: 23px;
+  left: 74px;
+  width: 653px;
+  height: 496px;
+  overflow: hidden;
+}
+.addfield {
+  position: relative;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-whitesmoke);
+  width: 800px;
+  height: 600px;
+  overflow: hidden;
+  max-width: 100%;
+  max-height: 100%;
+  text-align: left;
+  font-size: var(--body-2-body-2-regular-size);
+  color: var(--grey-800);
+  font-family: var(--font-voltaire);
+}

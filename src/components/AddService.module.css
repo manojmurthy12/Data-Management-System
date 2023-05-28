@@ -1,0 +1,137 @@
+.chooseCategory {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 100%;
+}
+.div {
+  position: relative;
+  letter-spacing: 0.02em;
+  color: var(--color-chocolate);
+}
+.chooseCategoryParent {
+  width: 509px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-11xs);
+}
+.div1 {
+  position: relative;
+  line-height: 100%;
+  color: var(--color-dimgray-100);
+  display: none;
+}
+.frameGroup {
+  width: 509px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 0;
+}
+.dropdownbutton {
+  margin: 0 !important;
+  position: absolute;
+  top: 30px;
+  left: 0;
+  z-index: 1;
+  color: darkgray;
+  border: 1mm;
+}
+.frameParent {
+  position: absolute;
+  top: calc(50% - 131px);
+  left: calc(50% - 268.5px);
+  width: 509px;
+  height: 93px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.charFieldParent,
+.frameDiv {
+  display: none;
+  flex-direction: row;
+  align-items: center;
+}
+.charFieldParent {
+  justify-content: flex-start;
+  gap: var(--gap-11xs);
+}
+.frameDiv {
+  width: 509px;
+  justify-content: space-between;
+}
+.frameChild {
+  border: 0;
+  background-color: transparent;
+}
+.frameContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.enterFieldDescription {
+  position: relative;
+  line-height: 100%;
+  color: var(--grey-600);
+  display: none;
+}
+.component4,
+.component4Wrapper {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.component4 {
+  margin: 0 !important;
+  top: 0;
+  left: 0;
+  gap: var(--gap-base);
+  z-index: 0;
+}
+.component4Wrapper {
+  top: calc(50% - 27px);
+  left: calc(50% - 268.5px);
+  width: 509px;
+  height: 93px;
+}
+.buttoncontainedTextAndIco,
+.buttonoutlinedTextAndIcon {
+  position: absolute;
+  top: 280px;
+  left: 55px;
+  cursor: pointer;
+}
+.buttonoutlinedTextAndIcon {
+  left: 139px;
+}
+.addserviceForm {
+  position: absolute;
+  top: 106px;
+  left: 71px;
+  width: 653px;
+  height: 346px;
+  overflow: hidden;
+}
+.addservice {
+  position: relative;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-whitesmoke);
+  width: 767px;
+  height: 568px;
+  overflow: hidden;
+  max-width: 100%;
+  max-height: 100%;
+  text-align: left;
+  font-size: var(--body-2-body-2-regular-size);
+  color: var(--grey-800);
+  font-family: var(--font-voltaire);
+}

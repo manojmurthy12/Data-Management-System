@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Voltaire:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --body-2-body-2-regular: Inter;
+  --font-voltaire: Voltaire;
+
+  /* font sizes */
+  --font-size-lg: 18px;
+  --body-2-body-2-regular-size: 14px;
+  --body-3-body-3-regular-size: 12px;
+
+  /* Colors */
+  --grey-light-white: #fff;
+  --grey-light-grey-1: #242a31;
+  --color-dimgray-100: #4c5c6b;
+  --grey-light-grey-2: #4d5a66;
+  --grey-light-grey-3: #e2e8ee;
+  --color-whitesmoke: #f6f7f9;
+  --grey-600: #768898;
+  --color-chocolate: #d95117;
+  --grey-800: #262e36;
+
+  /* Gaps */
+  --gap-xs: 12px;
+  --gap-42xl: 61px;
+  --gap-9xs: 4px;
+  --gap-base: 16px;
+  --gap-11xs: 2px;
+  --gap-5xl: 24px;
+
+  /* border radiuses */
+  --br-9xs: 4px;
+  --br-5xs: 8px;
+}
